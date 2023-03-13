@@ -26,7 +26,37 @@
     node build/app.js
 
 ## 7. Criar repositório git
+    
+    TODO
 
 ## 8. Criar ficheiro .gitignore
 
-  
+    TODO
+
+## 9. Adding Jest Testing tool to the project
+
+```shell
+$ npm install jest --save-dev
+$ npm install ts-jest --save-dev
+$ npm install @types/jest --save-dev
+$ npm install ts-node --save-dev
+$ npm install jest-junit --save-dev
+$ npm install jest-html-reporter --save-dev
+$ npm install jest-html-reporters --save-dev
+```
+
+## 10. Add a test command
+
+    ...
+    "scripts": {
+        ...
+        "test": "jest --coverage --coverageReporters=\"text\" --coverageReporters=\"html\" --coverageReporters=\"json\"",
+        ...
+    },
+    ...
+
+## 11. Add the tests (in __tests__) and the code to be tested
+
+## 12. Run the tests
+
+    npm test
